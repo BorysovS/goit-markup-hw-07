@@ -474,15 +474,15 @@ flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.adress-nav-list {
+.footer-nav__list {
     margin-right: auto;
 }
 
-.adress.list {
+.footer-nav__item {
     margin-bottom: 9px;
 }
 
-.mail.list-footer {
+.footer-nav__item {
     list-style: none;
     margin-bottom: 9px;
 }
@@ -491,7 +491,7 @@ flex-wrap: wrap;
     padding-bottom: 60px;
     background-color: var(--primary-dark-color);
 }
-.adress-nav-list .link {
+.footer-nav__list .link {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -503,7 +503,7 @@ flex-wrap: wrap;
 
 }
 
-.adress .link {
+.footer-nav__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -514,8 +514,8 @@ flex-wrap: wrap;
     
 }
 
-.adress-nav-list .link:hover,
-.adress-nav-list .link:focus {
+.footer-nav__link:hover,
+.footer-nav__link:focus {
     color: var(--primery-accent-color);
 }
 
@@ -536,10 +536,10 @@ flex-wrap: wrap;
         list-style: none;
     }
 
-    .works-menu .menu-btn.ordinary {
+    .menu-btn.ordinary {
         padding: 6px 25px;
     }
-    .works-menu .menu-btn {
+    .menu-btn {
         max-height: 38px;
         padding: 6px 22px;
         border: 1px solid transparent;
