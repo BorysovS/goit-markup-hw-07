@@ -1,7 +1,6 @@
  .modal-window-form {
      display: flex;
      flex-direction: column;
-     padding: 40px;
  }
 
  .modal-form-title {
@@ -16,13 +15,13 @@
  }
 
  .modal-form-field {
-     margin-bottom: 20px;
-
+    margin-bottom: 10px;
      font-weight: 400;
      font-size: 12px;
      line-height: 1.17;
 
      letter-spacing: 0.01em;
+
  }
 
  .form-field-wrapper {
@@ -86,6 +85,9 @@
         }
  }
 
+ .modal-form-field__textarea {
+    margin-bottom: 20px;
+ }
 
  
 
